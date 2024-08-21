@@ -10,27 +10,27 @@ const Navbar = () => {
 
   return (
     <div className='overflow-hidden'>
-      <nav className='fixed top-0 left-0 w-full flex justify-between items-center p-4 bg-slate-400 text-emerald-900 font-crimson-text font-bold z-50 shadow-md'>
+      <nav className='fixed top-0 left-0 w-full flex justify-between items-center p-4 bg-slate-400 text-indigo-600 font-crimson-text font-bold z-50 shadow-md'>
         <a
           href='/'
-          className='text-emerald-900 no-underline lg:text-2xl text-xl font-bungee lg:ml-16 ml-4'
+          className='text-indigo-600 no-underline lg:text-2xl text-xl font-bungee lg:ml-16 ml-4'
         >
           THE UGLEE ONE
         </a>
         <div className='hidden md:flex space-x-8 font-libre'>
-          <a href='/' className='text-emerald-900 no-underline'>
+          <a href='/' className='text-indigo-600 no-underline'>
             Home
           </a>
-          <a href='/entry' className='text-emerald-900 no-underline'>
+          <a href='/entry' className='text-indigo-600 no-underline'>
             Shop
           </a>
-          <a href='/about' className='text-emerald-900 no-underline'>
+          <a href='/about' className='text-indigo-600 no-underline'>
             About
           </a>
-          <a href='/contact' className='text-emerald-900 no-underline'>
+          <a href='/contact' className='text-indigo-600 no-underline'>
             Contact
           </a>
-          <a href='/faqs' className='text-emerald-900 no-underline'>
+          <a href='/faqs' className='text-indigo-600 no-underline'>
             FAQs
           </a>
         </div>
@@ -47,7 +47,7 @@ const Navbar = () => {
             <path d='M6.00488 9H19.9433L20.4433 7H8.00488V5H21.7241C22.2764 5 22.7241 5.44772 22.7241 6C22.7241 6.08176 22.7141 6.16322 22.6942 6.24254L20.1942 16.2425C20.083 16.6877 19.683 17 19.2241 17H5.00488C4.4526 17 4.00488 16.5523 4.00488 16V4H2.00488V2H5.00488C5.55717 2 6.00488 2.44772 6.00488 3V9ZM6.00488 23C4.90031 23 4.00488 22.1046 4.00488 21C4.00488 19.8954 4.90031 19 6.00488 19C7.10945 19 8.00488 19.8954 8.00488 21C8.00488 22.1046 7.10945 23 6.00488 23ZM18.0049 23C16.9003 23 16.0049 22.1046 16.0049 21C16.0049 19.8954 16.9003 19 18.0049 19C19.1095 19 20.0049 19.8954 20.0049 21C20.0049 22.1046 19.1095 23 18.0049 23Z'></path>
           </svg>
           {totalItems > 0 && (
-            <span className='absolute top-[-8px] right-[-8px] bg-emerald-900 text-slate-400 rounded-full px-2 py-1 text-xs font-bold'>
+            <span className='absolute top-[-8px] right-[-8px] bg-indigo-600 text-slate-400 rounded-full px-2 py-1 text-xs font-bold'>
               {totalItems}
             </span>
           )}
@@ -55,14 +55,14 @@ const Navbar = () => {
       </nav>
 
       {/* Footer navigation, only visible on mobile */}
-      <footer className='fixed bottom-4 w-full bg-slate-400 text-emerald-900 rounded-full font-libre font-bold md:hidden items-center'>
+      <footer className='fixed bottom-4 w-full bg-slate-400 text-indigo-600 rounded-full font-libre font-bold md:hidden items-center'>
         <div className='mx-4 px-4'>
           {/* Added padding here */}
           <ul className='flex justify-around py-2'>
             <li className='flex flex-col items-center'>
               <a
                 href='/'
-                className='flex flex-col items-center text-emerald-900 no-underline'
+                className='flex flex-col items-center text-indigo-600 no-underline'
               >
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
@@ -78,7 +78,7 @@ const Navbar = () => {
             <li className='flex flex-col items-center'>
               <a
                 href='/entry'
-                className='flex flex-col items-center text-emerald-900 no-underline'
+                className='flex flex-col items-center text-indigo-600 no-underline'
               >
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
@@ -94,7 +94,7 @@ const Navbar = () => {
             <li className='flex flex-col items-center'>
               <a
                 href='/about'
-                className='flex flex-col items-center text-emerald-900 no-underline'
+                className='flex flex-col items-center text-indigo-600 no-underline'
               >
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
@@ -110,7 +110,7 @@ const Navbar = () => {
             <li className='flex flex-col items-center'>
               <a
                 href='/contact'
-                className='flex flex-col items-center text-emerald-900 no-underline'
+                className='flex flex-col items-center text-indigo-600 no-underline'
               >
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
@@ -126,7 +126,7 @@ const Navbar = () => {
             <li className='flex flex-col items-center'>
               <a
                 href='/faq'
-                className='flex flex-col items-center text-emerald-900 no-underline'
+                className='flex flex-col items-center text-indigo-600 no-underline'
               >
                 <svg
                   xmlns='http://www.w3.org/2000/svg'

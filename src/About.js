@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div className='min-h-screen bg-slate-300 text-emerald-900 font-libre flex flex-col items-center py-8 px-4 lg:px-24'>
+    <div className='min-h-screen bg-slate-300 text-indigo-600 font-libre flex flex-col items-center py-8 px-4 lg:px-24'>
       <div className='max-w-3xl w-full bg-slate-300 shadow-lg rounded-lg p-6 lg:p-12'>
         <h1 className='text-3xl lg:text-4xl font-bungee text-center mb-6'>
           About The Uglee One
@@ -40,7 +40,7 @@ const About = () => {
         <div className='text-center mt-8'>
           <a
             href='/entry'
-            className='inline-block bg-emerald-900 text-slate-300 rounded-full px-8 py-3 text-lg font-bold hover:bg-emerald-700 transition duration-300'
+            className='inline-block bg-indigo-600 text-slate-300 rounded-full px-8 py-3 text-lg font-bold hover:bg-indigo-400 transition duration-300'
           >
             Explore Our Collection
           </a>

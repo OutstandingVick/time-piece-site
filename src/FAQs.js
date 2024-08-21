@@ -2,7 +2,7 @@ import React from 'react';
 
 const FAQs = () => {
   return (
-    <div className='text-emerald-900 font-shippori'>
+    <div className='text-indigo-600 font-shippori'>
       <div className='mx-14 mt-28 overflow-hidden flex justify-center text-2xl md:text-4xl font-bold'>
         <h1>Frequently Asked Questions.</h1>
       </div>

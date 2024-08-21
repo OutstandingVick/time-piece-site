@@ -76,7 +76,7 @@ const SeikoD = () => {
           ))}
         </div>
       </div>
-      <div className='flex-1 m-4 p-4 lg:pb-96 font-libre text-emerald-900 w-full'>
+      <div className='flex-1 m-4 p-4 lg:pb-96 font-libre text-indigo-600 w-full'>
         <h1 className='text-xl pb-4 lg:text-3xl'>₦1,670,900.00</h1>
         <h1 className='text-xl pb-4 lg:text-4xl'>Seiko Dual time 1E20-5610</h1>
         <div className='flex items-center mb-4'>
@@ -95,7 +95,7 @@ const SeikoD = () => {
           </button>
         </div>
         <button
-          className={`bg-emerald-900 hover:bg-slate-500 text-slate-300 hover:text-emerald-900 w-96 h-10 mb-4 ${
+          className={`bg-indigo-600 hover:bg-slate-500 text-slate-300 hover:text-indigo-600 w-96 h-10 mb-4 ${
             isAdding ? 'opacity-50 cursor-not-allowed' : ''
           }`}
           onClick={handleAddToCart}
@@ -103,9 +103,9 @@ const SeikoD = () => {
         >
           {isAdding ? 'Adding...' : 'ADD TO CART'}
         </button>
-        {message && <p className='text-green-500'>{message}</p>}
+        {message && <p className='text-indigo-800'>{message}</p>}
         <br />
-        <button className='bg-emerald-900 text-slate-300 w-96 h-10 mb-4 hover:bg-slate-500 hover:text-emerald-900'>
+        <button className='bg-indigo-900 text-slate-300 w-96 h-10 mb-4 hover:bg-slate-500 hover:text-indigo-600'>
           BUY NOW
         </button>
         <div className='w-full font-space'>

@@ -14,20 +14,20 @@ const CartSidebar = () => {
 
   return (
     <div
-      className={`fixed top-0 right-0 h-full w-full sm:w-80 md:w-96 lg:w-1/3 bg-slate-300 text-emerald-900 shadow-xl transform ${
+      className={`fixed top-0 right-0 h-full w-full sm:w-80 md:w-96 lg:w-1/3 bg-slate-300 text-indigo-600 shadow-xl transform ${
         isSidebarOpen ? 'translate-x-0' : 'translate-x-full'
       } transition-transform duration-300 ease-in-out z-50`}
     >
       <div className='p-6'>
         <button
           onClick={toggleSidebar}
-          className='text-emerald-900 hover:text-red-500 text-xl mb-4'
+          className='text-indigo-600 hover:text-red-500 text-xl mb-4'
         >
           Close &times;
         </button>
         <h2 className='text-2xl font-semibold mb-4'>Your Cart</h2>
         {cart.length === 0 ? (
-          <p className='text-emerald-900'>Your cart is empty.</p>
+          <p className='text-indigo-600'>Your cart is empty.</p>
         ) : (
           <ul className='divide-y divide-gray-200'>
             {cart.map((item) => (
@@ -37,7 +37,7 @@ const CartSidebar = () => {
               >
                 <div>
                   <p className='text-lg font-medium'>{item.name}</p>
-                  <p className='text-sm text-emerald-900'>
+                  <p className='text-sm text-indigo-00'>
                     Quantity: {item.quantity}
                   </p>
                 </div>
@@ -59,9 +59,9 @@ const CartSidebar = () => {
         {cart.length > 0 && (
           <div className='mt-6 pt-6 border-t border-gray-200'>
             <h3 className='text-xl font-semibold'>
-              Total: <span className='text-green-600'>₦{calculateTotal}</span>
+              Total: <span className='text-violet-900'>₦{calculateTotal}</span>
             </h3>
-            <button className='mt-4 w-full bg-emerald-600 text-emerald-900 py-2 rounded hover:bg-emerald-700'>
+            <button className='mt-4 w-full bg-indigo-300 text-indigo-600 py-2 rounded hover:bg-indigo-400'>
               Checkout
             </button>
           </div>

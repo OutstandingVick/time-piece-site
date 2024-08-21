@@ -13,10 +13,10 @@ function Home() {
             alt='Home Image'
           />
           <div className='absolute inset-0 flex flex-col items-start justify-start h-full p-4 sm:p-6 lg:pl-12 lg:pt-40 pt-20'>
-            <p className='text-amber-400 text-3xl sm:text-4xl lg:text-7xl font-bold font-bungee mb-2 md:mb-8'>
+            <p className='text-indigo-600 text-3xl sm:text-4xl lg:text-7xl font-bold font-bungee mb-2 md:mb-8'>
               LET YOUR WRIST SPEAK
             </p>
-            <p className='text-amber-400 text-3xl sm:text-4xl lg:text-7xl font-bold font-bungee'>
+            <p className='text-indigo-600 text-3xl sm:text-4xl lg:text-7xl font-bold font-bungee'>
               BEFORE YOUR MOUTH DOES
             </p>
           </div>
@@ -35,7 +35,7 @@ function Home() {
           <div className='card hover:shadow-lg w-full opacity-100 bg-slate-300 shadow-md overflow-hidden'>
             <img
               className='w-full h-40 sm:h-64 lg:h-72 object-cover'
-              src={`${process.env.PUBLIC_URL}/img/casio1.jpeg`}
+              src={`${process.env.PUBLIC_URL}/img/Casio1.jpeg`}
               alt='Entry-level Watches'
             />
             <div className='m-4 p-2'>
@@ -51,7 +51,7 @@ function Home() {
           <div className='card hover:shadow-lg w-full opacity-100 bg-slate-300 shadow-md overflow-hidden'>
             <img
               className='w-full h-40 sm:h-64 lg:h-72 object-cover'
-              src={`${process.env.PUBLIC_URL}/img/oris-7445.jpeg`}
+              src={`${process.env.PUBLIC_URL}/img/Oris-7445.jpeg`}
               alt='Mid-range Watches'
             />
             <div className='m-4 p-2'>
@@ -67,7 +67,7 @@ function Home() {
           <div className='card hover:shadow-lg w-full opacity-100 bg-slate-300 shadow-md overflow-hidden'>
             <img
               className='w-full h-40 sm:h-64 lg:h-72 object-cover'
-              src={`${process.env.PUBLIC_URL}/img/vintage-piaget.jpeg`}
+              src={`${process.env.PUBLIC_URL}/img/Vintage-Piaget.jpeg`}
               alt='Classic Vintage Watches'
             />
             <div className='m-4 p-2'>
@@ -83,7 +83,7 @@ function Home() {
           <div className='card hover:shadow-lg w-full opacity-100 bg-slate-300 shadow-md overflow-hidden'>
             <img
               className='w-full h-40 sm:h-64 lg:h-72 object-cover'
-              src={`${process.env.PUBLIC_URL}/img/vacheron1.jpeg`}
+              src={`${process.env.PUBLIC_URL}/img/Vacheron1.jpeg`}
               alt='High-end Luxury Watches'
             />
             <div className='m-4 p-2'>
@@ -127,7 +127,7 @@ function Home() {
           <div className='hover:shadow-lg w-full opacity-100 bg-slate-300 shadow-md overflow-hidden'>
             <img
               className='w-full h-40 sm:h-56 lg:h-72 object-cover'
-              src={`${process.env.PUBLIC_URL}/img/casio2.jpeg`}
+              src={`${process.env.PUBLIC_URL}/img/Casio2.jpeg`}
               alt='Casio MTP Series'
             />
             <div className='m-4 p-2'>
@@ -140,7 +140,7 @@ function Home() {
           <div className='hover:shadow-lg w-full opacity-100 bg-slate-300 shadow-md overflow-hidden'>
             <img
               className='w-full h-40 sm:h-56 lg:h-72 object-cover'
-              src={`${process.env.PUBLIC_URL}/img/seiko1.jpeg`}
+              src={`${process.env.PUBLIC_URL}/img/Seiko1.jpeg`}
               alt='Seiko 5 Arabic Dial'
             />
             <div className='m-4 p-2'>
@@ -153,7 +153,7 @@ function Home() {
           <div className='hover:shadow-lg w-full opacity-100 bg-slate-300 shadow-md overflow-hidden'>
             <img
               className='w-full h-40 sm:h-56 lg:h-72 object-cover'
-              src={`${process.env.PUBLIC_URL}/img/casio3.jpeg`}
+              src={`${process.env.PUBLIC_URL}/img/Casio3.jpeg`}
               alt='Casio MTP Series'
             />
             <div className='m-4 p-2'>

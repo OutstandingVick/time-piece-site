@@ -76,7 +76,7 @@ const Hamilton = () => {
           ))}
         </div>
       </div>
-      <div className='flex-1 m-4 p-4 lg:pb-96 font-libre text-emerald-900 w-full'>
+      <div className='flex-1 m-4 p-4 lg:pb-96 font-libre text-indigo-600 w-full'>
         <h1 className='text-2xl pb-4 lg:text-3xl'>₦700,000.00</h1>
         <h1 className='text-2xl pb-4 lg:text-4xl'>
           Hamilton Boulton Small Second
@@ -97,7 +97,7 @@ const Hamilton = () => {
           </button>
         </div>
         <button
-          className={`bg-emerald-900 hover:bg-slate-500 text-slate-300 hover:text-emerald-900 w-80 lg:w-96 h-10 mb-4 ${
+          className={`bg-indigo-600 hover:bg-slate-500 text-slate-300 hover:text-indigo-600 w-80 lg:w-96 h-10 mb-4 ${
             isAdding ? 'opacity-50 cursor-not-allowed' : ''
           }`}
           onClick={handleAddToCart}
@@ -107,7 +107,7 @@ const Hamilton = () => {
         </button>
         {message && <p className='text-green-500'>{message}</p>}
         <br />
-        <button className='bg-emerald-900 text-slate-300 w-80 md:w-96 h-10 mb-4 hover:bg-slate-500 hover:text-emerald-900'>
+        <button className='bg-indigo-600 text-slate-300 w-80 md:w-96 h-10 mb-4 hover:bg-slate-500 hover:text-indigo-600'>
           BUY NOW
         </button>
         <div className='w-full font-space'>

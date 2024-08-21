@@ -2,17 +2,17 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className='bg-slate-400 text-emerald-900 font-libre py-8 px-4 lg:px-6'>
+    <footer className='bg-slate-400 text-indigo-600 font-libre py-8 px-4 lg:px-6'>
       <div className='container mx-auto grid grid-cols-2 md:grid-cols-4 gap-8'>
         <article className='pr-8 lg:px-6'>
           <h2 className='lg:text-lg text-sm font-bold mb-4'>CONTACT US</h2>
-          <p className='mb-2 text-sm text-emerald-900'>
+          <p className='mb-2 text-sm text-indigo-600'>
             Add: 121401, Victoria Island, Lagos state.
           </p>
-          <p className='mb-2 lg:text-sm text-xs text-emerald-900'>
+          <p className='mb-2 lg:text-sm text-xs text-indigo-600'>
             Tel: +2342099944455
           </p>
-          <p className='mb-2 lg:text-sm text-xs text-emerald-900'>
+          <p className='mb-2 lg:text-sm text-xs text-indigo-600'>
             Email: support@uglee.com
           </p>
           <br />
@@ -41,7 +41,7 @@ const Footer = () => {
               <br />
               <button
                 type='submit'
-                className='bg-emerald-900 hover:bg-slate-300 hover:text-emerald-900 text-slate-300 font-bold py-2 px-4 lg:w-72 w-44 rounded'
+                className='bg-indigo-600 hover:bg-slate-300 hover:text-indigo-600 text-slate-300 font-bold py-2 px-4 lg:w-72 w-44 rounded'
               >
                 Subscribe
               </button>
@@ -50,7 +50,7 @@ const Footer = () => {
         </article>
         <div>
           <h2 className='font-bold mb-4 lg:text-base text-sm'>SHOP</h2>
-          <div className='flex flex-col lg:text-sm text-xs text-emerald-900'>
+          <div className='flex flex-col lg:text-sm text-xs text-indigo-600'>
             <a href='/entry' className='mb-6 hover:underline'>
               Entry-level
             </a>
