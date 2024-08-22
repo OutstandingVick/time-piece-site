@@ -105,10 +105,10 @@ function Home() {
             alt='Home Image'
           />
           <div className='absolute inset-0 flex flex-col items-start justify-start h-full p-4 sm:p-6 lg:pl-12 lg:pt-40'>
-            <p className='text-teal-500 text-3xl sm:text-4xl lg:text-7xl font-bold font-bungee lg:pt-44 pt-20 mb-2 md:mb-8'>
+            <p className='text-indigo-400 text-3xl sm:text-4xl lg:text-7xl font-bold font-bungee lg:pt-44 pt-20 mb-2 md:mb-16'>
               A TIMEPIECE FOR
             </p>
-            <p className='text-teal-500 text-3xl sm:text-4xl lg:text-7xl font-bold font-bungee'>
+            <p className='text-indigo-400 text-3xl sm:text-4xl lg:text-7xl font-bold font-bungee'>
               EVERY LIFESTYLE
             </p>
           </div>

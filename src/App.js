@@ -4,6 +4,7 @@ import './App.css';
 import Home from './Home';
 import About from './About';
 import FAQs from './FAQs';
+import Contact from './Contact';
 import Entry from './Entry';
 import Mid from './Mid';
 import Classic from './Classic';
@@ -58,6 +59,7 @@ function App() {
                 <Route path='/' element={<Home />} />
                 <Route path='/about' element={<About />} />
                 <Route path='/faqs' element={<FAQs />} />
+                <Route path='/contact' element={<Contact />} />
                 <Route path='/entry' element={<Entry />} />
                 <Route path='/mid' element={<Mid />} />
                 <Route path='/classic' element={<Classic />} />
