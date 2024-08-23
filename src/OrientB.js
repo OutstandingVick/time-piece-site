@@ -56,11 +56,11 @@ const OrientB = () => {
   };
 
   return (
-    <article className='py-8 px-4 lg:px-32 gap-4 flex flex-col lg:flex-row min-h-screen pt-20'>
+    <article className='py-8 px-4 lg:px-32 gap-4 flex flex-col lg:flex-row min-h-screen pt-20 overflow-hidden'>
       <div className='lg:flex-1 w-full'>
         <img
           src={mainImage}
-          alt='Seiko Dolce 7731'
+          alt='Orient Bambino '
           className='w-full md:max-w-2xl md:mx-auto'
         />
         <div className='flex justify-center space-x-4 mt-4'>
@@ -68,7 +68,7 @@ const OrientB = () => {
             <img
               key={index}
               src={image}
-              alt={`Seiko Dolce - ${index + 1}`}
+              alt={`Orient B - ${index + 1}`}
               className='w-20 md:w-24 lg:w-32 mt-6 mr-2 cursor-pointer'
               onClick={() => handleImageClick(image)}
             />
@@ -94,7 +94,7 @@ const OrientB = () => {
           </button>
         </div>
         <button
-          className={`bg-indigo-600 hover:bg-slate-500 text-slate-300 hover:text-indigo-600 w-96 h-10 mb-4 ${
+          className={`bg-indigo-600 hover:bg-slate-500 text-slate-300 hover:text-indigo-600 w-80 md:w-96 h-10 mb-4 ${
             isAdding ? 'opacity-50 cursor-not-allowed' : ''
           }`}
           onClick={handleAddToCart}
@@ -104,7 +104,7 @@ const OrientB = () => {
         </button>
         {message && <p className='text-indigo-800'>{message}</p>}
         <br />
-        <button className='bg-indigo-600 text-slate-300 w-96 h-10 mb-4 hover:bg-slate-500 hover:text-indigo-600'>
+        <button className='bg-indigo-600 text-slate-300 w-80 md:w-96 h-10 mb-4 hover:bg-slate-500 hover:text-indigo-600'>
           BUY NOW
         </button>
         <div className='w-full font-space'>

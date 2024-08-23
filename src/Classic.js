@@ -36,7 +36,7 @@ const Classic = () => {
     {
       name: 'Vintage Seiko Ladies',
       price: '₦850,000.00',
-      imgSrc: 'img/Vintage-Ladies.jpeg',
+      imgSrc: 'img/Vintage-ladies.jpeg',
       link: '/seikolady',
     },
     {

@@ -14,7 +14,7 @@ const CartSidebar = () => {
 
   return (
     <div
-      className={`fixed top-0 right-0 h-full w-full sm:w-80 md:w-96 lg:w-1/3 bg-slate-300 text-indigo-600 shadow-xl transform ${
+      className={`overflow-hidden fixed top-0 right-0 h-full w-full sm:w-80 md:w-96 lg:w-1/3 bg-slate-300 text-indigo-600 shadow-xl transform ${
         isSidebarOpen ? 'translate-x-0' : 'translate-x-full'
       } transition-transform duration-300 ease-in-out z-50`}
     >

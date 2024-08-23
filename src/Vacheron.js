@@ -56,7 +56,7 @@ const Vacheron = () => {
   };
 
   return (
-    <article className='py-8 px-4 lg:px-32 gap-4 flex flex-col lg:flex-row min-h-screen pt-20'>
+    <article className='py-8 px-4 lg:px-32 gap-4 flex flex-col lg:flex-row min-h-screen pt-20 overflow-hidden'>
       <div className='lg:flex-1 w-full'>
         <img
           src={mainImage}

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function Home() {
   return (
-    <article className='bg-slate-300 pt-20'>
+    <article className='bg-slate-300 pt-20 overflow-hidden'>
       <div className='bg-slate-300'>
         {/* Home Banner */}
         <div className='relative card'>

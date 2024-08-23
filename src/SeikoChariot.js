@@ -56,7 +56,7 @@ const SeikoChariot = () => {
   };
 
   return (
-    <article className='py-8 px-4 lg:px-32 gap-4 flex flex-col lg:flex-row min-h-screen pt-20'>
+    <article className='py-8 px-4 lg:px-32 gap-4 flex flex-col lg:flex-row min-h-screen pt-20 overflow-hidden'>
       <div className='lg:flex-1 w-full'>
         <img
           src={mainImage}
@@ -94,7 +94,7 @@ const SeikoChariot = () => {
           </button>
         </div>
         <button
-          className={`bg-indigo-600 hover:bg-slate-500 text-slate-300 hover:text-indigo-600 w-80 lg:w-96 h-10 mb-4 ${
+          className={`bg-indigo-600 hover:bg-slate-500 text-slate-300 hover:text-indigo-600 w-80 md:w-96 lg:w-96 h-10 mb-4 ${
             isAdding ? 'opacity-50 cursor-not-allowed' : ''
           }`}
           onClick={handleAddToCart}

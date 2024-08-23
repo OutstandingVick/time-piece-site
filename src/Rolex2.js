@@ -44,7 +44,7 @@ const Rolex2 = () => {
   };
 
   return (
-    <article className='py-8 pt-20 px-4 lg:px-32 gap-4 flex flex-col lg:flex-row min-h-screen'>
+    <article className='py-8 pt-20 px-4 lg:px-32 gap-4 flex flex-col lg:flex-row min-h-screen overflow-hidden'>
       <div className='lg:flex-1 w-full'>
         <br />
         <img
@@ -74,7 +74,7 @@ const Rolex2 = () => {
           </button>
         </div>
         <button
-          className={`bg-indigo-600 hover:bg-slate-500 text-slate-300 hover:text-indigo-600 w-96 h-10 mb-4 ${
+          className={`bg-indigo-600 hover:bg-slate-500 text-slate-300 hover:text-indigo-600 w-80 md:w-96 h-10 mb-4 ${
             isAdding ? 'opacity-50 cursor-not-allowed' : ''
           }`}
           onClick={handleAddToCart}
@@ -84,7 +84,7 @@ const Rolex2 = () => {
         </button>
         {message && <p className='text-indigo-800'>{message}</p>}
         <br />
-        <button className='bg-indigo-600 text-slate-300 w-96 h-10 mb-4 hover:bg-slate-500 hover:text-indigo-600'>
+        <button className='bg-indigo-600 text-slate-300 w-80 md:w-96 h-10 mb-4 hover:bg-slate-500 hover:text-indigo-600'>
           BUY NOW
         </button>
         <div className='w-full font-space'>
