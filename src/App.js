@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import ScrollToTop from './ScrollToTop';
 import './App.css';
 import Home from './Home';
 import About from './About';
@@ -52,6 +53,7 @@ function App() {
     <CartProvider>
       <CartSidebarContextProvider>
         <Router>
+          <ScrollToTop />
           <div className='min-h-screen bg-slate-300 bg-center'>
             <Navbar />
             <div className='p-0'>

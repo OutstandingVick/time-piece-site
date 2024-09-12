@@ -1,7 +1,15 @@
-// CartSidebar.js
 import React, { useContext } from 'react';
 import { CartContext } from './CartContext';
 import { CartSidebarContext } from './CartSidebarContext';
+
+// Utility function to format the currency
+const formatCurrency = (value) => {
+  return new Intl.NumberFormat('en-NG', {
+    style: 'currency',
+    currency: 'NGN',
+    minimumFractionDigits: 0, // No decimals
+  }).format(value);
+};
 
 const CartSidebar = () => {
   const { cart, removeFromCart } = useContext(CartContext);
@@ -43,7 +51,8 @@ const CartSidebar = () => {
                 </div>
                 <div className='text-right'>
                   <p className='text-lg font-medium'>
-                    ₦{item.price * item.quantity}
+                    {/* Use formatCurrency to format the price */}
+                    {formatCurrency(item.price * item.quantity)}
                   </p>
                   <button
                     onClick={() => removeFromCart(item.uniqueKey)}
@@ -59,7 +68,10 @@ const CartSidebar = () => {
         {cart.length > 0 && (
           <div className='mt-6 pt-6 border-t border-gray-200'>
             <h3 className='text-xl font-semibold'>
-              Total: <span className='text-violet-900'>₦{calculateTotal}</span>
+              Total:{' '}
+              <span className='text-violet-900'>
+                {formatCurrency(calculateTotal)}
+              </span>
             </h3>
             <button className='mt-4 w-full bg-indigo-300 text-indigo-600 py-2 rounded hover:bg-indigo-400'>
               Checkout

@@ -105,7 +105,7 @@ const SeikoD = () => {
         </button>
         {message && <p className='text-indigo-800'>{message}</p>}
         <br />
-        <button className='bg-indigo-900 text-slate-300 w-80 md:w-96 h-10 mb-4 hover:bg-slate-500 hover:text-indigo-600'>
+        <button className='bg-indigo-600 text-slate-300 w-80 md:w-96 h-10 mb-4 hover:bg-slate-500 hover:text-indigo-600'>
           BUY NOW
         </button>
         <div className='w-full font-space'>

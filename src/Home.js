@@ -7,16 +7,22 @@ function Home() {
       <div className='bg-slate-300'>
         {/* Home Banner */}
         <div className='relative card'>
+          {/* Image */}
           <img
             className='w-full h-auto bg-no-repeat bg-center bg-cover'
             src={`${process.env.PUBLIC_URL}/img/home1.jpg`}
             alt='Home Image'
           />
+
+          {/* Overlay */}
+          <div className='absolute inset-0 bg-black bg-opacity-40'></div>
+
+          {/* Text */}
           <div className='absolute inset-0 flex flex-col items-start justify-start h-full p-4 sm:p-6 lg:pl-12 lg:pt-40 pt-14'>
-            <p className='text-indigo-600 text-2xl sm:text-4xl lg:text-7xl font-bold font-bungee mb-2 md:mb-8'>
+            <p className='text-indigo-500 text-2xl sm:text-4xl lg:text-7xl font-bold font-bungee mb-2 md:mb-8'>
               LET YOUR WRIST SPEAK
             </p>
-            <p className='text-indigo-600 text-2xl sm:text-4xl lg:text-7xl font-bold font-bungee'>
+            <p className='text-indigo-500 text-2xl sm:text-4xl lg:text-7xl font-bold font-bungee'>
               BEFORE YOUR MOUTH DOES
             </p>
           </div>
@@ -104,6 +110,9 @@ function Home() {
             src={`${process.env.PUBLIC_URL}/img/home3.jpg`}
             alt='Home Image'
           />
+          {/* Overlay */}
+          <div className='absolute inset-0 bg-black bg-opacity-50'></div>
+
           <div className='absolute inset-0 flex flex-col items-start justify-start h-full p-4 sm:p-6 lg:pl-12 lg:pt-40'>
             <p className='text-indigo-400 text-2xl sm:text-4xl lg:text-7xl font-bold font-bungee lg:pt-44 pt-20 mb-2 md:mb-16'>
               A TIMEPIECE FOR

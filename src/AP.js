@@ -52,8 +52,8 @@ const AP = () => {
           className='w-full md:max-w-2xl md:mx-auto'
         />
       </div>
-      <div className='flex-1 m-4 p-4 lg:pb-96 font-libre text-emerald-900 w-full'>
-        <h1 className='text-2xl pb-2 lg:text-3xl'>₦245,650,000.00</h1>
+      <div className='flex-1 m-4 p-4 lg:pb-96 font-libre text-indigo-600 w-full'>
+        <h1 className='text-2xl pb-2 lg:text-3xl'>₦245,650,000</h1>
         <h1 className='text-2xl pb-2 lg:text-4xl'>
           Audemars Piguet Royal Oak Concept
         </h1>

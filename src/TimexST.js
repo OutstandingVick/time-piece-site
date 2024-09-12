@@ -75,7 +75,7 @@ const TimexST = () => {
           ))}
         </div>
       </div>
-      <div className='flex-1 m-4 p-4 lg:pb-96 font-libre text-indigo-900 w-full'>
+      <div className='flex-1 m-4 p-4 lg:pb-96 font-libre text-indigo-600 w-full'>
         <h1 className='text-xl pb-4 lg:text-3xl'>₦280,500.00</h1>
         <h1 className='text-xl pb-4 lg:text-4xl'>
           Timex Standard Chronograph.
